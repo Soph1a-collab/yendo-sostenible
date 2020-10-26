@@ -56,13 +56,18 @@ const TransportSelection = () =>{
 
 const ImagesContainer = styled.div`
     overflow-y: scroll;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 `;
 
 const TransportSelectionContainer = styled.div`
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
+    width: 100%;
+    margin-left: 5%;
 `;
 
 const TabsContainer = styled.div`

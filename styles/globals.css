@@ -6,6 +6,22 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+@font-face {
+  font-family: rubik;
+  src: url("/assets/fonts/Rubik/static/Rubik-Light.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: rubik;
+  src: url("/assets/fonts/Rubik/static/Rubik-Bold.ttf");
+  font-weight: bold;
+}
+
+
+a,p,h1,h2,h3,h4,h5,h6,div,span,b{
+  font-family: rubik;
+}
+
 a {
   color: inherit;
   text-decoration: none;
